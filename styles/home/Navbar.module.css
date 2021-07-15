@@ -1,0 +1,29 @@
+.navBarContainer {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(226, 223, 223);
+}
+
+.navFlexContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.flexItem {
+    display: block;
+    width: 25px;
+    margin: -10px 15px 5px 15px;
+    cursor: pointer;
+}
+
+.flexItemHouse {
+    width: 40px;
+}
