@@ -12,7 +12,7 @@ function navbar() {
           <div className={styles.flexItem}>           
             <Link href="#" passHref={true}>
               <Image 
-                src='/assets/icons/menu.png'
+                src='/assets/icons/svg/menu.svg'
                 width={50}
                 height={50}
                 alt='icon'
@@ -23,7 +23,7 @@ function navbar() {
           <div className={styles.flexItem}> 
             <Link href="#" passHref={true}>
               <Image 
-                src='/assets/icons/calendar.png'
+                src='/assets/icons/svg/calendar.svg'
                 width={50}
                 height={50}
                 alt='icon'
@@ -34,7 +34,7 @@ function navbar() {
           <div className={styles.flexItem + ' ' + styles.flexItemHouse}>
             <Link href="/" passHref={true}>
               <Image 
-                src='/assets/icons/house.png'
+                src='/assets/icons/svg/house.svg'
                 width={50}
                 height={50}
                 alt='icon'
@@ -45,7 +45,7 @@ function navbar() {
           <div className={styles.flexItem}>
             <Link href="#" passHref={true}>
               <Image 
-                src='/assets/icons/clock.png'
+                src='/assets/icons/svg/daily_routine.svg'
                 width={50}
                 height={50}
                 alt='icon'
@@ -56,7 +56,7 @@ function navbar() {
           <div className={styles.flexItem}>
             <Link href="#" passHref={true}>
               <Image 
-                src='/assets/icons/gear.png'
+                src='/assets/icons/svg/settings.svg'
                 width={50}
                 height={50}
                 alt='icon'

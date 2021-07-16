@@ -1,0 +1,19 @@
+.barContainer {
+    margin: auto;
+    height: 4.5rem;
+    width: 100vw;
+    background-color: #252525;
+    display: flex;
+}
+
+.textContainer {
+    font-size: 0.7rem;
+    color: #6EABAB;
+    text-align: center;
+    margin: auto;
+    font-family: MonumentExtended;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-style: normal;
+    font-variant: normal;
+}

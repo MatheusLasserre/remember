@@ -1,29 +1,44 @@
 .navBarContainer {
     margin: auto;
     padding: 0;
-    width: 100%;
+    width: 100vw;
+    /* height: 60px; */
     display: block;
     position: fixed;
     bottom: 0;
-    left: 0;
-    background-color: rgb(226, 223, 223);
+    background-color: #252525;
 }
 
 .navFlexContainer {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 75%;
+    height: 60px;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    margin: auto;
 }
 
 .flexItem {
     display: block;
     width: 25px;
-    margin: -10px 15px 5px 15px;
+    margin-top: 5px;
     cursor: pointer;
+    transition: width 200ms ease;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(14%) saturate(6734%) hue-rotate(181deg) brightness(131%) contrast(75%);
 }
 
 .flexItemHouse {
+    width: 30px;
+    transition: width 200ms ease;
+    filter: invert(66%) sepia(12%) saturate(1043%) hue-rotate(131deg) brightness(95%) contrast(80%);
+}
+
+
+.flexItem:hover {
+    width: 35px;
+}
+
+.flexItemHouse:hover{
     width: 40px;
 }
